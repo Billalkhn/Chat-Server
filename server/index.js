@@ -12,6 +12,11 @@ import deleteRouter from "./routes/delete.js";
 // middlewares
 import { decode } from './middlewares/jwt.js';
 
+// mongo connection
+import "./config/mongo.js";
+// routes
+import indexRouter from "./routes/index.js";
+
 
 const app = express();
 
